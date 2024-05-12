@@ -43,14 +43,14 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  `~  |  1!  |  2@  |  3#  |  4$  |  5%  |   |  6^   |  7&  |  8*   |  9(   |  0)  |  |\  |
-// |      |  ?/  |      |      |      |      |   |  (    |  )   |  {[   |  ]}   |  \   |  :;  |
+// |      |  ?/  |      |      |      |      |   |  (    |  )   |  {[   |  ]}   |      |  :;  |
 // |      |      |      |      |      |      |   |  _-   |  +=  |  :;   |  "'   |      |      |
 //                      |      |      |      |   |       |      |       |
                         bindings = <
-   &kp GRV  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5      &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &kp BSLH
-   &trans   &kp SLSH &trans   &trans   &trans   &trans      &kp LPRN  &kp RPRN  &kp LBRC  &kp RBRC  &kp BSLH &kp COLN
-   &trans   &trans   &trans   &trans   &trans   &trans      &kp MINS  &kp EQL   &kp LBRC  &kp RBRC  &kp PIPE &kp TILD
-                              &trans   &trans   &trans      &trans    &trans    &trans
+   &kp GRAVE  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5      &kp N6     &kp N7      &kp N8    &kp N9    &kp N0   &kp BSLH
+   &trans     &kp FSLH &trans   &trans   &trans   &trans      &kp LPAR   &kp RPAR    &kp LBKT  &kp RBKT  &trans   &kp SEMI
+   &trans     &trans   &trans   &trans   &trans   &trans      &kp MINUS  &kp EQUAL   &kp SEMI  &kp APOS  &trans   &trans
+                                &trans   &trans   &trans      &trans     &trans      &trans
                         >;
                 };
         };
